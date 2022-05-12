@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Kokomi's Hangout</title>
+        <title>Kokomi&apos;s Hangout</title>
         <meta name="description" content="The website of the official Discord server." />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Kokomi's Oceanic Hangout
+          Kokomi&apos;s Oceanic Hangout
         </h1>
 
         <p className={styles.description}>
@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a className={styles.card}>
             <h2>Fun and free &rarr;</h2>
-            <p>We're a fun community, aren't too strict about rules, and we have lots of free bots to use from!</p>
+            <p>We&apos;re a fun community, aren&apos;t too strict about rules, and we have lots of free bots to use from!</p>
           </a>
 
           <a className={styles.card}>
@@ -33,7 +33,7 @@ export default function Home() {
 
           <a className={styles.card}>
             <h2>Fun and cool bots &rarr;</h2>
-            <p>We host cool bots that are always online, and they're fun to use!</p>
+            <p>We host cool bots that are always online, and they&apos;re fun to use!</p>
           </a>
 
           <a className={styles.card}>
