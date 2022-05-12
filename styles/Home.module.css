@@ -109,9 +109,11 @@
   color: #fff;
   transition: 0.3s;
   border-radius: 2.5px;
+  border: 1px solid #fff;
+  padding: 1em;
+  opacity: 0.8;
 }
 
-.button:hover {
-  color: #777;
-  border-color: #777;
+.button:hover { 
+  opacity: 1;
 }
