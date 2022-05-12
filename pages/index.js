@@ -47,7 +47,7 @@ export default function Home() {
 
         <div>
           <a 
-            href="https://discord.gg/fSCCDMC8cg"
+            href="https://discord.gg/TyYMZH3TR4"
           >
             <button className={styles.button}>
               Join now!
