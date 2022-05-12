@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         <div>
-          <a href="https://discord.gg/fSCCDMC8cg"><input type="button" value="Join now! &#xe164;" className={styles.button}/></a>
+          <a href="https://discord.gg/fSCCDMC8cg"><button className={styles.button}/>Join now! &#xe164;<i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
         </div>
       </main>
 
