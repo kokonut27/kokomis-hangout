@@ -28,7 +28,7 @@ export default function Home() {
 
           <a className={styles.card}>
             <h2>Good Community &rarr;</h2>
-            <p>We have a fun and respectful community - no hate allowed!</p>
+            <p>We have a fun and respectful community - no hate allowed - and we support each other!</p>
           </a>
 
           <a className={styles.card}>
@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
           <a className={styles.card}>
-            <h2>Giveaways and announcements &rarr;</h2>
+            <h2>Giveaways &rarr;</h2>
             <p>
               We also throw giveaways pretty often, such as bot coins!
             </p>
@@ -50,22 +50,24 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-        | &copy 2022
-        <a
-          href="https://github.com/kokonut27"
-        >
-          kokonut
-        </a>
+        <div>
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by{' '}
+            <span className={styles.logo}>
+              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            </span>
+          </a>
+          | &copy 2022
+          <a
+            href="https://github.com/kokonut27"
+          >
+            kokonut
+          </a>
+        </div>
       </footer>
     </div>
   )
