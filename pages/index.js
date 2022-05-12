@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 
 export default function Home() {
@@ -52,7 +50,7 @@ export default function Home() {
             href="https://discord.gg/fSCCDMC8cg"
           >
             <button className={styles.button}>
-              Join now! <FontAwesomeIcon icon={solid('arrow-up-right-from-square')} />
+              Join now!
             </button>
           </a>
         </div>
