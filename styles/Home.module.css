@@ -60,6 +60,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  padding-bottom: 7vh;
 }
 
 .card {
@@ -115,4 +116,5 @@
 
 .button:hover { 
   opacity: 1;
+  cursor: pointer;
 }
