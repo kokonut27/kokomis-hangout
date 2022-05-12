@@ -61,11 +61,10 @@ export default function Home() {
               <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
             </span>
           </a>
-          | &copy 2022
           <a
             href="https://github.com/kokonut27"
           >
-            kokonut
+            &copy; 2022, kokonut
           </a>
         </div>
       </footer>
